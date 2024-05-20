@@ -10,5 +10,5 @@ project(hcompress VERSION 1.0
                   DESCRIPTION "Simple Huffman compression."
                   LANGUAGES C)
 
-add_executable(hcompress hcompress.c hcompress.h linkedList.c linkedList.h)
+add_executable(hcompress src/hcompress.c src/hcompress.h src/linked_list.c src/linked_list.h)
 
